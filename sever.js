@@ -13,5 +13,5 @@ app.get('/pet', function(request, response){
 
 //주소를 /하나만 하면 홈페이지라는 뜻
 app.get('/', function(request, response){ 
-    response.sendFile(__driname + '/index.html')
+    response.sendFile(__dirname + '/index.html')
 });
